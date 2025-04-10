@@ -10,5 +10,5 @@
 - Tout ce qui est à start est à mettre dans le ```server.cfg```
 
 ```
-ensure up_location_menu
+ensure up_personal_menu
 ```
