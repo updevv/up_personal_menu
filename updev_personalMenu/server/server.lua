@@ -1,0 +1,11 @@
+RegisterNetEvent("UpDev:personnal:quitJob", function()
+    local xPlayer = ESX.GetPlayerFromId(source)
+    xPlayer.setJob("unemployed", 0)
+    xPlayer.showNotification("✅ Vous avez quitté votre emploi !")
+end)
+
+RegisterNetEvent("UpDev:personnal:quitCrew", function()
+    local xPlayer = ESX.GetPlayerFromId(source)
+    xPlayer.setCrew(Config.Personalmenu.CrewName, 0)
+    xPlayer.showNotification("✅ Vous avez quitté votre crew !")
+end)
