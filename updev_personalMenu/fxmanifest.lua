@@ -2,8 +2,9 @@ fx_version "cerulean"
 games { "gta5", }
 
 author "orionpix"
-description "The shop of updev"
+description "The personnalMenu of updev"
 version "0.0.1"
+discord "https://discord.gg/updev"
 
 client_scripts {
 
@@ -34,26 +35,11 @@ shared_script {
 }
 
 files {
-    'stream/poppins.gfx',
-    'stream/Inter-Medium.gfx',
+    "stream/poppins.gfx",
+    "stream/Inter-Medium.gfx",
 }
 
 lua54 "yes"
 
-data_file 'DLC_ITYP_REQUEST' 'stream/poppins.gfx'
-data_file 'DLC_ITYP_REQUEST' 'stream/Inter-Medium.gfx'
-
-🎉 Nouveau Menu Personnel Disponible ! 🔥
-
-Je vous présente notre *Personal Menu* entièrement personnalisable ! Ce menu a été conçu pour offrir une interface intuitive et rapide, accessible à tout moment pour gérer vos actions de joueur de manière fluide et efficace.
-
-📥 Téléchargement : https://github.com/updevv/up_personalmenu
-
-🛠️ Caractéristiques principales :
-
-- 🎮 Accès rapide à vos interactions personnelles (portefeuille, factures, etc.).
-- 🧭 Navigation simple via un menu propre et ergonomique.
-- 🧩 Compatible avec tous les frameworks et facile à adapter.
-- 🚀 Optimisé pour les performances, sans impact sur le gameplay.
-
-🙏 Merci pour votre soutien, n'hésitez pas à poser vos questions ou à partager vos retours. Bonne installation et bon dev ! 💻⚙️
+data_file "DLC_ITYP_REQUEST" "stream/poppins.gfx"
+data_file "DLC_ITYP_REQUEST" "stream/Inter-Medium.gfx"
