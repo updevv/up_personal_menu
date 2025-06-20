@@ -12,3 +12,6 @@
 ```
 ensure up_personal_menu
 ```
+
+⚠️ IMPORTANT : Ce projet est maintenant sous licence restrictive
+Voir LICENSE.md pour les conditions d'utilisation
