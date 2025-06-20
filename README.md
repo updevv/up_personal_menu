@@ -6,7 +6,7 @@
 
 # 📝 Install
 
-- Installer l'hud et glissé-le dans le dossier ```ressources```
+- Installer up_personalmenu et glissé-le dans le dossier ```ressources```
 - Tout ce qui est à start est à mettre dans le ```server.cfg```
 
 ```
